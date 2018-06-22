@@ -26,6 +26,7 @@
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2>MAX-DEFER REMOVAL [ BETA 0.1 ]</h2>
+                        <p>There are currently <b><font color="red"><?php echo shell_exec($get_total_deferd_list); ?></font></b> Domains on AU webcloud  max defers list</p>
                     </div>
                     <div class="panel-body">
                         <p class="txt" id="notification"><?php echo $notification ?></p>
